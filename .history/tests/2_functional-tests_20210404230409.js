@@ -56,7 +56,7 @@ suite('Functional Tests', function() {
 
       test('Convert kg (no number)', (done) => {
         chai.request(server).get('/api/convert')
-          .query({ input: 'kg' })
+          .query({ input: 'kgL' })
           .end((err, res) => {
             assert.equal(res.status, 200);
             assert.equal(res.body.initNum, 1);
