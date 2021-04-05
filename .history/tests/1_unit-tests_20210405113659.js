@@ -111,7 +111,7 @@ suite('Unit Tests', function(){
   //});
 
   //suite('Function convertHandler.convert(num, unit)', () => {
-    test('gal to L', (done) => {
+    test('Gal to L', (done) => {
       let input = [5, 'gal'];
       let expected = 18.92705;
       assert.approximately(
@@ -122,7 +122,7 @@ suite('Unit Tests', function(){
       done();
     });
 
-    test('L to gal', (done) => {
+    test('L to Gal', (done) => {
       let input = [5, 'L'];
       let expected = 1.32086;
       assert.approximately(
@@ -133,7 +133,7 @@ suite('Unit Tests', function(){
       done();
     });
 
-    test('mi to km', (done) => {
+    test('Mi to Km', (done) => {
       let input = [5, 'mi'];
       let expected = 8.0467;
       assert.approximately(
@@ -144,7 +144,7 @@ suite('Unit Tests', function(){
       done();
     });
 
-    test('km to mi', (done) => {
+    test('Km to Mi', (done) => {
       let input = [5, 'km'];
       let expected = 3.10686;
       assert.approximately(
@@ -155,7 +155,7 @@ suite('Unit Tests', function(){
       done();
     });
 
-    test('lbs to kg', (done) => {
+    test('Lbs to Kg', (done) => {
       let input = [5, 'lbs'];
       let expected = 2.26796;
       assert.approximately(
@@ -166,7 +166,7 @@ suite('Unit Tests', function(){
       done();
     });
 
-    test('kg to Lbs', (done) => {
+    test('Kg to Lbs', (done) => {
       let input = [5, 'kg'];
       let expected = 11.02312;
       assert.approximately(
